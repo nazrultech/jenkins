@@ -14,6 +14,12 @@ sh \'pwd\''''
       }
     }
 
+    stage('test') {
+      steps {
+        echo 'test'
+      }
+    }
+
   }
   environment {
     dev = 'dev'
