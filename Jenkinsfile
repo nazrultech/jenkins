@@ -8,6 +8,12 @@ sh \'pwd\''''
       }
     }
 
+    stage('build') {
+      steps {
+        echo 'build'
+      }
+    }
+
   }
   environment {
     dev = 'dev'
